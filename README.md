@@ -14,5 +14,15 @@ This is simple program for NodeMCU, ESP8266, ESP32, ESP-12 F/E to perform Captiv
 <ul>
   <li> Load the code in Arduino IDE </li>
   <li> Connect NodeMCU Device with PC </li>
-  <li> Change ESSID, PASS Variables in <b>captive.ino</b> Code and Upload. </li>
+  <li> You can change Wifi Name. By-Default it is "FreeWifi". Then Upload. </li>
 </ul>
+
+<h2> Running </h2>
+<ul>
+  <li> Restart/Reset NodeMCU after Uploading Code </li>
+  <li> Open Serial Monitor at 115200 bitrate and Visit the website at IP Address Given.</li>
+  <li> You can access Web Panel by Connecting to "FreeWifi" or what name you changed in code. </li>
+</ul>
+
+<b> Passwords will be saved in EEPROM, You can reset EEPROM, delete Passwords </b>
+
