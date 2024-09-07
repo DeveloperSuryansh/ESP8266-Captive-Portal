@@ -9,3 +9,10 @@ This is simple program for NodeMCU, ESP8266, ESP32, ESP-12 F/E to perform Captiv
     http://arduino.esp8266.com/stable/package_esp8266com_index.json
   </p></li>
 </ul>
+
+<h2> Installation </h2>
+<ul>
+  <li> Load the code in Arduino IDE </li>
+  <li> Connect NodeMCU Device with PC </li>
+  <li> Change ESSID, PASS Variables in <b>captive.ino</b> Code and Upload. </li>
+</ul>
